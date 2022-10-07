@@ -1,0 +1,54 @@
+body{
+	overflow-x: hidden;
+}
+
+header{
+	opacity: 0.9;
+}
+
+main section{
+	max-width: 600px!important;
+}
+
+main,footer{
+	position: relative;
+	top: 12vh;
+}
+
+.transaction{
+	border-right: 4px solid var(--bs-gray)!important;
+	max-width: 100%;
+}
+
+.transaction h5{
+	text-align: center;
+}
+
+.income h5{
+	color: var(--bs-success);
+}
+
+.income{
+	border-right: 4px solid var(--bs-success)!important;
+}
+
+.expense h5{
+	color: var(--bs-danger);
+}
+
+.expense{
+	border-right: 4px solid var(--bs-danger)!important;
+}
+
+#add-btn{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: var(--bs-primary);
+	color: var(--bs-light);
+}
+
+.fa-times{
+	position: relative;
+	top: 9px;
+}
